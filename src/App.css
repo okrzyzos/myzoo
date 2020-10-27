@@ -1,38 +1,99 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin:0 auto;
+  align-items: center;
+  padding: 10px;
+} */
+
+img {
+    width: 70%;
+    border-radius: 50%;
+    /* height: 70%; */
 }
 
-.App-link {
-  color: #61dafb;
+.serpent {
+    height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.foo {
+    width: 400px;
+    background-color: #3498db;
+    height: 3px;
+}
+
+.titre {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #61dafb;
+    font-style: italic;
+}
+
+.rounded {
+    width: 70px;
+}
+
+.cochon {
+    height: 100px;
+}
+
+.chien {
+    height: 200px;
+}
+
+.croco {
+    height: 100px;
+}
+
+.requin {
+    height: 100px;
+}
+
+.oiseau {
+    height: 100px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Indie Flower', cursive;
+}
+
+.site {
+    min-height: 100vh;
+    margin-bottom: -140px;
+}
+
+footer,
+.minsite {
+    height: 180px;
+}
+
+.imgFb,
+.imgTwitter {
+    height: 75px;
+    width: 55px;
+    margin-left: 100px;
+}
+
+.imgyoutube {
+    height: 25px;
+    width: 95px;
+    margin-right: 20px;
+}
+
+.mention {
+    color: white;
+}
+
+.mention:hover {
+    color: coral;
 }
